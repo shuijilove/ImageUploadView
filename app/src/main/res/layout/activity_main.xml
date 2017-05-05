@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.moral.imageuploadview.ImagePickActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片选择具体可参考使用https://github.com/Bilibili/boxing"
+        android:padding="10dp"/>
+    <com.moral.imageuploadview.lib.ImageUploadView
+        android:id="@+id/iv_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.moral.imageuploadview.lib.ImageUploadView>
+
+</LinearLayout>
